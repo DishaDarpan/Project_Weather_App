@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://images.pexels.com/photos/4203126/pexels-photo-4203126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/1819650/pexels-photo-1819650.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -14,7 +14,7 @@ h3 {
 input {
   margin-top: 10px;
   margin-left: 20px;
-  background-color: #f0e4df;
+  background-color: #dff0e7;
   border: solid 1px #7a455b;
   border-radius: 4px;
   padding: 6px 12px;
@@ -49,7 +49,7 @@ a {
 }
 
 .weather-app {
-  background-color: #d8ceca;
+  background-image: url("https://images.pexels.com/photos/1478524/pexels-photo-1478524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   color: #7a455b;
   max-width: 800px;
   display: block;
@@ -72,33 +72,33 @@ a {
 }
 
 .search-btn {
-  border-color: #7a455b;
-  color: #7a455b;
+  border-color: #01251a;
+  color: #01251a;
   margin-bottom: 15px;
   margin-left: 5px;
 }
 .search-btn:hover {
-  background-color: #7a455b;
-  border-color: #7a455b;
+  background-color: #01251a;
+  border-color: #01251a;
   color: #d8ceca;
 }
 
-.location-btn {
+/*.location-btn {
   margin-left: 20px;
-  border-color: #7a455b;
-  color: #7a455b;
+  border-color: #01251e;
+  color: #01251e;
 }
 .location-btn:hover {
   background-color: #7a455b;
   border-color: #7a455b;
   color: #d8ceca;
-}
+}*/
 
 .current {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 .city {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 #description {
@@ -155,7 +155,7 @@ a {
 }
 
 .row {
-  margin: -60px 10px 20px;
+  margin: -40px 10px 20px;
 }
 
 .col {

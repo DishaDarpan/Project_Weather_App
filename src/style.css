@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://images.pexels.com/photos/1819650/pexels-photo-1819650.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-image: url("https://images.pexels.com/photos/314726/pexels-photo-314726.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -15,10 +15,9 @@ input {
   margin-top: 10px;
   margin-left: 30px;
   background-color: #dff0e7;
-  border: solid 1px #01251a;
+  border: solid 1px white;
   border-radius: 4px;
   padding: 6px 12px;
-  color: #01251a;
 }
 
 input:focus {
@@ -39,8 +38,8 @@ a {
 }
 
 ::placeholder {
-  color: #01251a;
-  opacity: 60%;
+  color: rgb(26, 16, 16);
+  opacity: 70%;
 }
 
 .wrapper {
@@ -49,12 +48,12 @@ a {
 }
 
 .weather-app {
-  background-image: url("https://images.pexels.com/photos/1478524/pexels-photo-1478524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-  color: #01251a;
+  background-image: url("https://images.pexels.com/photos/2011367/pexels-photo-2011367.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  color: white;
   max-width: 800px;
   display: block;
   margin: 20px 0px 0px 0px;
-  border: 3px solid #01251a;
+  border: 3px solid white;
   border-radius: 30px;
 }
 
@@ -74,14 +73,14 @@ a {
 }
 
 .search-btn {
-  border-color: #01251a;
-  color: #01251a;
+  border-color: white;
+  color: white;
   margin-bottom: 15px;
   margin-left: 5px;
 }
 .search-btn:hover {
-  background-color: #01251a;
-  border-color: #01251a;
+  background-color: white;
+  border-color: white;
   color: #d8ceca;
 }
 
@@ -112,8 +111,8 @@ a {
 }
 
 .unit {
-  border-color: #01251a;
-  color: #01251a;
+  border-color: white;
+  color: white;
   size: 25px;
   padding: 0 8px;
   font-size: 25px;
@@ -124,8 +123,8 @@ a {
 }
 
 .unit:hover {
-  background-color: #01251a;
-  border-color: #01251a;
+  background-color: white;
+  border-color: white;
   color: #d8ceca;
 }
 
@@ -151,12 +150,10 @@ a {
 }
 
 .col {
-  border: 1px solid#01251a;
+  border: 1px solidwhite;
   border-radius: 10px;
   margin: 10px 10px;
   text-align: center;
-
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .day {

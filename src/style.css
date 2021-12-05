@@ -25,10 +25,11 @@ input:focus {
 }
 
 small {
-  color: white;
+  color: rgb(4, 9, 82);
+  font-weight: bold;
 }
 a {
-  color: white;
+  color: rgb(4, 9, 82);
 }
 
 #icon {

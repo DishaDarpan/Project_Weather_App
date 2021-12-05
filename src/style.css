@@ -7,18 +7,18 @@ body {
 
 h3 {
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 80px;
   text-align: left;
 }
 
 input {
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 30px;
   background-color: #dff0e7;
-  border: solid 1px #7a455b;
+  border: solid 1px #01251a;
   border-radius: 4px;
   padding: 6px 12px;
-  color: #7a455b;
+  color: #01251a;
 }
 
 input:focus {
@@ -39,7 +39,7 @@ a {
 }
 
 ::placeholder {
-  color: #7a455b;
+  color: #01251a;
   opacity: 60%;
 }
 
@@ -53,8 +53,8 @@ a {
   color: #7a455b;
   max-width: 800px;
   display: block;
-  margin: 20px 0 0 0;
-  border: 1px solid #7a455b;
+  margin: 20px 20px 20px 20px;
+  border: 1px solid #01251a;
   border-radius: 20px;
 }
 
@@ -104,8 +104,8 @@ a {
 #description {
   font-size: large;
   font-weight: normal;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #description:first-letter {
@@ -121,8 +121,8 @@ a {
 }
 
 .unit {
-  border-color: #7a455b;
-  color: #7a455b;
+  border-color: #01251a;
+  color: #01251a;
   size: 25px;
   padding: 0 8px;
   font-size: 25px;
@@ -133,8 +133,8 @@ a {
 }
 
 .unit:hover {
-  background-color: #7a455b;
-  border-color: #7a455b;
+  background-color: #01251a;
+  border-color: #01251a;
   color: #d8ceca;
 }
 
@@ -155,13 +155,13 @@ a {
 }
 
 .row {
-  margin: -40px 10px 20px;
+  margin: -60px 10px 20px;
 }
 
 .col {
-  border: 1px solid #7a455b;
+  border: 1px solid#01251a;
   border-radius: 20px;
-  margin: 0 10px;
+  margin: 10 10px;
   text-align: center;
 }
 

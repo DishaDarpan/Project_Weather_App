@@ -153,13 +153,6 @@ function showPosition(position) {
   axios.get(apiUrl).then(showTemperature);
 }
 
-/*function getCurrentPosition(event) {
-  navigator.geolocation.getCurrentPosition(showPosition);
-}
-
-let locationButton = document.querySelector(".location-btn");
-locationButton.addEventListener("click", getCurrentPosition);*/
-
 let apiKey = "3befe0a338caeea10bbbcf2339b136d4";
 let units = "metric";
 let city = "London";
@@ -169,9 +162,7 @@ let temp = true;
 
 function changeUnitF() {
   let currentTemp = document.querySelector(".current-temp");
-  /*let fahrenheit = Math.round((celsius * 9) / 5 + 32);
-  currentTemp.innerHTML = `${fahrenheit}°F`;
-  fahrenheitButton.innerHTML = "°C";*/
+
   let feelsLike = document.querySelector(".feels");
   let feelsTemp = Math.round((feels * 9) / 5 + 32);
   feelsLike.innerHTML = `Feels like: ${feelsTemp}°C`;
@@ -213,16 +204,5 @@ function changeUnitC() {
   });
 }
 
-/*function changeUnit(event) {
-  event.preventDefault();
-  if (temp) changeUnitF();
-  else changeUnitC();
-  temp = !temp;
-}*/
-
 let celsius = null;
 let feels = null;
-
-/*let fahrenheitButton = document.querySelector(".unit");
-fahrenheitButton.addEventListener("click", changeUnit);
-*/
